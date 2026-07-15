@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Orders | CRM Dashboard</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/dashboard.css">
+<link rel="stylesheet" href="css/tables.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<!-- Sidebar -->
+
+<aside class="sidebar">
+
+
+<div class="logo">
+
+<i class="fa-solid fa-chart-line"></i>
+
+<h2>CRM</h2>
+
+</div>
+
+
+
+<ul>
+
+
+<li>
+
+<a href="dashboard.html">
+
+<i class="fa-solid fa-house"></i>
+Dashboard
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="customers.html">
+
+<i class="fa-solid fa-users"></i>
+Customers
+
+</a>
+
+</li>
+
+
+
+<li class="active">
+
+<a href="orders.html">
+
+<i class="fa-solid fa-cart-shopping"></i>
+Orders
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="settings.html">
+
+<i class="fa-solid fa-gear"></i>
+Settings
+
+</a>
+
+</li>
+
+
+
+<li>
+
+<a href="index.html">
+
+<i class="fa-solid fa-right-from-bracket"></i>
+Logout
+
+</a>
+
+</li>
+
+
+</ul>
+
+
+</aside>
+
+
+
+<!-- Main Content -->
+
+<main class="main">
+
+
+
+<div class="table-header">
+
+
+<h2>Orders Manager</h2>
+
+
+
+<div class="controls">
+
+
+<input 
+type="text"
+id="orderSearch"
+placeholder="Search order ID or customer..."
+>
+
+
+
+<select id="orderFilter">
+
+
+<option value="all">
+All Status
+</option>
+
+
+<option value="Pending">
+Pending
+</option>
+
+
+<option value="Completed">
+Completed
+</option>
+
+
+<option value="Cancelled">
+Cancelled
+</option>
+
+
+</select>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<div class="table-container">
+
+
+<table>
+
+
+<thead>
+
+<tr>
+
+<th>Order ID</th>
+
+<th>Customer</th>
+
+<th>Date</th>
+
+<th>Amount</th>
+
+<th>Status</th>
+
+<th>Action</th>
+
+
+</tr>
+
+
+</thead>
+
+
+
+<tbody id="orderTable">
+
+
+</tbody>
+
+
+
+</table>
+
+
+</div>
+
+
+
+</main>
+
+
+</div>
+
+
+
+<script src="js/orders.js"></script>
+
+
+</body>
+
+</html>

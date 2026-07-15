@@ -1,0 +1,44 @@
+[
+    {
+        "id": "ORD1001",
+        "customer": "John Smith",
+        "date": "2026-06-01",
+        "amount": 450,
+        "status": "Completed"
+    },
+    {
+        "id": "ORD1002",
+        "customer": "Emma Wilson",
+        "date": "2026-06-03",
+        "amount": 720,
+        "status": "Pending"
+    },
+    {
+        "id": "ORD1003",
+        "customer": "Michael Brown",
+        "date": "2026-06-05",
+        "amount": 300,
+        "status": "Cancelled"
+    },
+    {
+        "id": "ORD1004",
+        "customer": "Sophia Davis",
+        "date": "2026-06-08",
+        "amount": 980,
+        "status": "Completed"
+    },
+    {
+        "id": "ORD1005",
+        "customer": "David Miller",
+        "date": "2026-06-10",
+        "amount": 250,
+        "status": "Pending"
+    },
+    {
+        "id": "ORD1006",
+        "customer": "Olivia Taylor",
+        "date": "2026-06-12",
+        "amount": 600,
+        "status": "Completed"
+    }
+]

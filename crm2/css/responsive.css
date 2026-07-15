@@ -1,0 +1,270 @@
+/* =====================================
+   GLOBAL RESPONSIVE SETTINGS
+===================================== */
+
+@media (max-width: 1200px){
+
+    .main{
+        padding:25px;
+    }
+
+    .chart-section{
+        grid-template-columns:1fr;
+    }
+
+}
+
+
+/* =====================================
+   TABLET VIEW
+===================================== */
+
+@media (max-width: 992px){
+
+    .sidebar{
+        width:90px;
+        padding:25px 10px;
+    }
+
+    .sidebar .logo h2{
+        display:none;
+    }
+
+    .sidebar ul li a{
+        justify-content:center;
+        font-size:0;
+    }
+
+    .sidebar ul li a i{
+        font-size:20px;
+    }
+
+    .main{
+        margin-left:90px;
+    }
+
+
+    .cards{
+
+        grid-template-columns:
+        repeat(2,1fr);
+
+    }
+
+
+    .topbar h1{
+
+        font-size:26px;
+
+    }
+
+}
+
+
+/* =====================================
+   MOBILE VIEW
+===================================== */
+
+@media (max-width:768px){
+
+
+    .container{
+
+        display:block;
+
+    }
+
+
+    .sidebar{
+
+        position:fixed;
+
+        width:100%;
+
+        height:auto;
+
+        bottom:0;
+
+        top:auto;
+
+        left:0;
+
+        display:flex;
+
+        justify-content:center;
+
+        padding:10px;
+
+        z-index:1000;
+
+    }
+
+
+    .sidebar .logo{
+
+        display:none;
+
+    }
+
+
+    .sidebar ul{
+
+        display:flex;
+
+        width:100%;
+
+        justify-content:space-around;
+
+    }
+
+
+    .sidebar ul li{
+
+        margin:0;
+
+    }
+
+
+    .sidebar ul li a{
+
+        padding:10px;
+
+        justify-content:center;
+
+    }
+
+
+    .sidebar ul li a i{
+
+        font-size:20px;
+
+    }
+
+
+    .main{
+
+        margin-left:0;
+
+        padding:20px;
+
+        padding-bottom:90px;
+
+    }
+
+
+    .cards{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+    .topbar{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+        gap:15px;
+
+    }
+
+
+    .user{
+
+        width:100%;
+
+        justify-content:flex-end;
+
+    }
+
+
+    .chart-box{
+
+        padding:15px;
+
+    }
+
+
+    .table-header{
+
+        flex-direction:column;
+
+        align-items:flex-start;
+
+    }
+
+
+    .controls{
+
+        width:100%;
+
+        flex-direction:column;
+
+    }
+
+
+    .controls input,
+    .controls select,
+    .controls button{
+
+        width:100%;
+
+    }
+
+
+}
+
+
+/* =====================================
+   SMALL MOBILE
+===================================== */
+
+@media(max-width:480px){
+
+
+    .main{
+
+        padding:15px;
+
+    }
+
+
+    .topbar h1{
+
+        font-size:22px;
+
+    }
+
+
+    .card{
+
+        padding:20px;
+
+    }
+
+
+    .card h3{
+
+        font-size:24px;
+
+    }
+
+
+    .pagination{
+
+        gap:10px;
+
+    }
+
+
+    .pagination button{
+
+        padding:8px 12px;
+
+        font-size:13px;
+
+    }
+
+
+}

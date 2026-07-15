@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "John Smith",
+        "email": "john@gmail.com",
+        "country": "USA",
+        "status": "Active"
+    },
+    {
+        "id": 2,
+        "name": "Emma Wilson",
+        "email": "emma@gmail.com",
+        "country": "UK",
+        "status": "Inactive"
+    },
+    {
+        "id": 3,
+        "name": "Michael Brown",
+        "email": "michael@gmail.com",
+        "country": "Canada",
+        "status": "Active"
+    },
+    {
+        "id": 4,
+        "name": "Sophia Davis",
+        "email": "sophia@gmail.com",
+        "country": "Australia",
+        "status": "Active"
+    },
+    {
+        "id": 5,
+        "name": "David Miller",
+        "email": "david@gmail.com",
+        "country": "Germany",
+        "status": "Inactive"
+    },
+    {
+        "id": 6,
+        "name": "Olivia Taylor",
+        "email": "olivia@gmail.com",
+        "country": "France",
+        "status": "Active"
+    },
+    {
+        "id": 7,
+        "name": "James Anderson",
+        "email": "james@gmail.com",
+        "country": "USA",
+        "status": "Active"
+    },
+    {
+        "id": 8,
+        "name": "William Thomas",
+        "email": "william@gmail.com",
+        "country": "India",
+        "status": "Inactive"
+    },
+    {
+        "id": 9,
+        "name": "Ava Martinez",
+        "email": "ava@gmail.com",
+        "country": "Spain",
+        "status": "Active"
+    },
+    {
+        "id": 10,
+        "name": "Lucas Anderson",
+        "email": "lucas@gmail.com",
+        "country": "Brazil",
+        "status": "Active"
+    },
+    {
+        "id": 11,
+        "name": "Isabella Moore",
+        "email": "isabella@gmail.com",
+        "country": "Italy",
+        "status": "Inactive"
+    },
+    {
+        "id": 12,
+        "name": "Ethan Jackson",
+        "email": "ethan@gmail.com",
+        "country": "Japan",
+        "status": "Active"
+    }
+]

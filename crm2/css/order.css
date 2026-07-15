@@ -1,0 +1,106 @@
+/* =====================================
+   ORDERS PAGE STYLING
+===================================== */
+
+
+/* Status Dropdown */
+
+.status-select{
+
+    padding:8px 12px;
+
+    border-radius:20px;
+
+    border:1px solid #d1d5db;
+
+    outline:none;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+    background:#fff;
+
+    transition:.3s;
+
+}
+
+
+.status-select:hover{
+
+    border-color:#2563eb;
+
+}
+
+
+.status-select:focus{
+
+    border-color:#2563eb;
+
+    box-shadow:0 0 5px rgba(37,99,235,.3);
+
+}
+
+
+
+/* Amount Column */
+
+table td:nth-child(4){
+
+    font-weight:600;
+
+    color:#2563eb;
+
+}
+
+
+
+/* Order ID */
+
+table td:first-child{
+
+    font-weight:600;
+
+    color:#1e293b;
+
+}
+
+
+
+/* Delete Button Animation */
+
+.delete-btn{
+
+    transition:.3s;
+
+}
+
+
+.delete-btn:hover{
+
+    transform:scale(1.05);
+
+}
+
+
+
+/* Order Table Mobile */
+
+@media(max-width:768px){
+
+
+.table-container{
+
+    overflow-x:auto;
+
+}
+
+
+table{
+
+    min-width:800px;
+
+}
+
+
+}

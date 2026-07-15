@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Dashboard</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <!-- Dashboard CSS -->
+    <link rel="stylesheet" href="css/dashboard.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+
+    <aside class="sidebar">
+
+        <div class="logo">
+            <i class="fa-solid fa-chart-line"></i>
+            <h2>CRM</h2>
+        </div>
+
+        <ul>
+
+            <li class="active">
+                <a href="dashboard.html">
+                    <i class="fa-solid fa-house"></i>
+                    Dashboard
+                </a>
+            </li>
+
+            <li>
+                <a href="customers.html">
+                    <i class="fa-solid fa-users"></i>
+                    Customers
+                </a>
+            </li>
+
+            <li>
+                <a href="orders.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Orders
+                </a>
+            </li>
+
+            <li>
+                <a href="settings.html">
+                    <i class="fa-solid fa-gear"></i>
+                    Settings
+                </a>
+            </li>
+
+            <li>
+                <a href="index.html">
+                    <i class="fa-solid fa-right-from-bracket"></i>
+                    Logout
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- Main Content -->
+
+    <main class="main">
+
+        <!-- Navbar -->
+
+        <header class="topbar">
+
+            <h1>Dashboard</h1>
+
+            <div class="user">
+
+                <i class="fa-solid fa-bell"></i>
+
+                <img src="https://i.pravatar.cc/100" alt="user">
+
+            </div>
+
+        </header>
+
+        <!-- KPI Cards -->
+
+        <section class="cards">
+
+            <div class="card revenue">
+                <i class="fa-solid fa-dollar-sign"></i>
+                <h3>$125,450</h3>
+                <p>Total Revenue</p>
+            </div>
+
+            <div class="card customers">
+                <i class="fa-solid fa-users"></i>
+                <h3>1,240</h3>
+                <p>Active Customers</p>
+            </div>
+
+            <div class="card orders">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h3>368</h3>
+                <p>Orders</p>
+            </div>
+
+            <div class="card growth">
+                <i class="fa-solid fa-chart-line"></i>
+                <h3>18%</h3>
+                <p>Growth</p>
+            </div>
+
+        </section>
+
+        <!-- Charts -->
+
+        <section class="chart-section">
+
+            <div class="chart-box">
+                <h3>Revenue Overview</h3>
+                <canvas id="revenueChart"></canvas>
+            </div>
+
+            <div class="chart-box">
+                <h3>Customer Distribution</h3>
+                <canvas id="customerChart"></canvas>
+            </div>
+
+        </section>
+
+        <!-- Recent Activity -->
+
+        <section class="activity">
+
+            <h3>Recent Activity</h3>
+
+            <ul>
+
+                <li>✅ John placed Order #1024</li>
+                <li>💰 Payment received from Emma</li>
+                <li>👤 New customer registered</li>
+                <li>📦 Order #1045 completed</li>
+                <li>⭐ Premium plan purchased</li>
+
+            </ul>
+
+        </section>
+
+    </main>
+
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>
